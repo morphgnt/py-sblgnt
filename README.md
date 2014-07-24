@@ -13,3 +13,15 @@ package that combines the database AND a Python API for accessing it.
 This way, tools built on the MorphGNT SBLGNT can include **py-sblgnt** as a
 requirement to be installed globally or into a virtualenv and no other set up
 is necessary.
+
+Note that, even though this repo and package contain the MorphGNT SBLGNT
+database, the [morphgnt/sblgnt repo](https://github.com/morphgnt/sblgnt)
+remains the authoritative source of the data.
+
+## License
+
+The SBLGNT text itself is subject to the [SBLGNT EULA](http://sblgnt.com/license/)
+and the morphological parsing and lemmatization is made available under a
+[CC-BY-SA License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+All code is made available under an MIT License.
