@@ -18,6 +18,32 @@ Note that, even though this repo and package contain the MorphGNT SBLGNT
 database, the [morphgnt/sblgnt repo](https://github.com/morphgnt/sblgnt)
 remains the authoritative source of the data.
 
+
+## How to Use
+
+Firstly, install with
+
+```
+pip install py-sblgnt
+```
+
+Then in your code...
+
+```
+from pysblgnt import morphgnt_rows
+
+for row in morphgnt_rows(book_num):
+    ...
+```
+
+where `book_num` is 1–27.
+
+Each `row` will be a dictionary with the keys:
+
+```
+"bcv", "ccat-pos", "ccat-parse", "robinson", "text", "word", "norm", "lemma"
+```
+
 ## License
 
 The SBLGNT text itself is subject to the [SBLGNT EULA](http://sblgnt.com/license/)
