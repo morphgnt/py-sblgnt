@@ -5,7 +5,7 @@ setup(
     version="0.5",
     description="pip-installable MorphGNT/SBLGNT with Python API",
     license="MIT",
-    url="http://https://github.com/morphgnt/py-sblgnt",
+    url="https://github.com/morphgnt/py-sblgnt",
     author="James Tauber",
     author_email="jtauber@jtauber.com",
     packages=["pysblgnt"],
