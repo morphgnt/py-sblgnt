@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="py-sblgnt",
-    version="0.9",
+    version="0.10",
     description="pip-installable MorphGNT/SBLGNT with Python API",
     license="MIT",
     url="https://github.com/morphgnt/py-sblgnt",
